@@ -1,111 +1,87 @@
 <p align="center">
-<a href="https://codefund.io/properties/510/visit-sponsor">
-<img src="https://codefund.io/properties/510/sponsor" />
-</a>
+  <a href="" rel="noopener">
+ <img src="https://i.imgur.com/AZ2iWek.png" alt="Project logo"></a>
+</p>
+<h3 align="center">testing-node-apps</h3>
+
+<div align="center">
+
+[![Hackathon](https://img.shields.io/badge/hackathon-name-orange.svg)](http://hackathon.url.com)
+[![Status](https://img.shields.io/badge/status-active-success.svg)]()
+[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
+
+</div>
+
+---
+
+<p align="center"> Few lines describing your project.
+    <br> 
 </p>
 
-# Testing Node.js Apps
+## 📝 Table of Contents
 
-👋 hi there! My name is [Kent C. Dodds](https://kentcdodds.com)! This is a
-workshop repo to teach you how to test your Node.js Apps!
+- [Problem Statement](#problem_statement)
+- [Idea / Solution](#idea)
+- [Dependencies / Limitations](#limitations)
+- [Future Scope](#future_scope)
+- [Setting up a local environment](#getting_started)
+- [Usage](#usage)
+- [Technology Stack](#tech_stack)
+- [Contributing](../CONTRIBUTING.md)
+- [Authors](#authors)
+- [Acknowledgments](#acknowledgments)
 
-[![Build Status][build-badge]][build]
-[![AppVeyor Build Status][win-build-badge]][win-build]
-[![Code Coverage][coverage-badge]][coverage]
-[![GPL 3.0 License][license-badge]][license]
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
-[![PRs Welcome][prs-badge]][prs] [![Code of Conduct][coc-badge]][coc]
+## 🧐 Problem Statement <a name = "problem_statement"></a>
 
-## Pre-Workshop Instructions/Requirements
+It is useful to design and follow a specific format when writing a problem
+statement. While there are several options for doing this, the following is a
+simple and straightforward template often used in Business Analysis to maintain
+focus on defining the problem.
 
-In order for us to maximize our efforts during the workshop, please do the
-following:
+- IDEAL: This section is used to describe the desired or “to be” state of the
+  process or product. At large, this section should illustrate what the expected
+  environment would look like once the solution is implemented.
+- REALITY: This section is used to describe the current or “as is” state of the
+  process or product.
+- CONSEQUENCES: This section is used to describe the impacts on the business if
+  the problem is not fixed or improved upon. This includes costs associated with
+  loss of money, time, productivity, competitive advantage, and so forth.
 
-- [ ] Setup the project (follow the setup instructions below) (~5 minutes)
-- [ ] Install and setup [Zoom](https://zoom.us) on the computer you will be
-      using (~5 minutes)
-- [ ] Watch
-      [Use Zoom for KCD Workshops](https://egghead.io/lessons/egghead-use-zoom-for-kcd-workshops)
-      (~8 minutes).
-- [ ] Watch
-      [Setup and Logistics for KCD Workshops](https://egghead.io/lessons/egghead-setup-and-logistics-for-kcd-workshops)
-      (~24 minutes). Please do NOT skip this step.
-- [ ] Attend my
-      [Testing Fundamentals Workshop](https://kentcdodds.com/workshops/testing-fundamentals)
-      or have the equivalent fundamental understanding and experience with
-      automated testing and tools. (Additional learning material:
-      [But really, what is a JavaScript test?](https://kentcdodds.com/blog/but-really-what-is-a-javascript-test)
-      and
-      [But really, what is a JavaScript mock?](https://kentcdodds.com/blog/but-really-what-is-a-javascript-mock))
-- [ ] Attend my
-      [Modern JavaScript Workshop](https://kentcdodds.com/workshops/modern-javascript)
-      or have the equivalent experience with modern JavaScript APIs.
-- [ ] Attend my
-      [Asynchronous JavaScript Workshop](https://kentcdodds.com/workshops/asynchronous-javascript)
-      or have equivalent experience with asynchronous JavaScript.
+Following this format will result in a workable document that can be used to
+understand the problem and elicit requirements that will lead to a winning
+solution.
 
-The more prepared you are for the workshop, the better it will go for you.
+## 💡 Idea / Solution <a name = "idea"></a>
 
-## Workshop Outline
+This section is used to describe potential solutions.
 
-Here are the topics we'll be covering:
+Once the ideal, reality, and consequences sections have been completed, and
+understood, it becomes easier to provide a solution for solving the problem.
 
-- Testing Pure Functions
-- Testing Middleware
-- Testing Controllers
-- Testing API routes
-- Mocking third party dependencies
-- Testing authenticated code
+## ⛓️ Dependencies / Limitations <a name = "limitations"></a>
 
-## System Requirements
+- What are the dependencies of your project?
+- Describe each limitation in detailed but concise terms
+- Explain why each limitation exists
+- Provide the reasons why each limitation could not be overcome using the
+  method(s) chosen to acquire.
+- Assess the impact of each limitation in relation to the overall findings and
+  conclusions of your project, and if appropriate, describe how these
+  limitations could point to the need for further research.
 
-- [git][git] v2 or greater
-- [NodeJS][node] v10 or greater
-- [yarn][yarn] v1 or greater (or [npm][npm] v6 or greater)
+## 🚀 Future Scope <a name = "future_scope"></a>
 
-All of these must be available in your `PATH`. To verify things are set up
-properly, you can run this:
+Write about what you could not develop during the course of the Hackathon; and
+about what your project can achieve in the future.
 
-```shell
-git --version
-node --version
-yarn --version # or npm --version
-```
+## 🏁 Getting Started <a name = "getting_started"></a>
 
-If you have trouble with any of these, learn more about the PATH environment
-variable and how to fix it here for [windows][win-path] or
-[mac/linux][mac-path].
-
-## Setup
-
-You should be able to work through the entire workshop in the browser. This is
-actually the recommended approach as it requires absolutely no setup whatsoever.
-Go to
-[this codesandbox](https://codesandbox.io/s/github/kentcdodds/testing-node-apps)
-and click `Fork` in the top right corner. Then click the `+` in the terminal and
-you can run `npm test` to get the test watch mode started.
-
-[![Edit testing-node-apps](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/kentcdodds/testing-node-apps)
-
-If you'd rather be able to work through the workshop on your own computer, then
-follow the following instructions.
-
-After you've made sure to have the correct things (and versions) installed, you
-should be able to just run a few commands to get set up:
-
-```
-git clone https://github.com/kentcdodds/testing-node-apps.git
-cd testing-node-apps
-npm run setup --silent
-```
-
-This may take a few minutes. **It will ask you for your email.** This is
-optional and just automatically adds your email to the links in the project to
-make filling out some forms easier If you get any errors, please read through
-them and see if you can find out what the problem is. You may also want to look
-at [Troubleshooting](#troubleshooting). If you can't work it out on your own
-then please [file an issue][issue] and provide _all_ the output from the
-commands you ran (even if it's a lot).
+These instructions will get you a copy of the project up and running on your
+local machine for development and testing purposes. See
+[deployment](#deployment) for notes on how to deploy the project on a live
+system.
 
 ## Running the tests
 
@@ -138,99 +114,25 @@ emoji characters are here to help you.
 - **Alfred the Alert** 🚨 will occasionally show up in the test failures with
   potential explanations for why the tests are failing.
 
-## Troubleshooting
+## 🎈 Usage <a name="usage"></a>
 
-<details>
+Add notes about how to use the system.
 
-<summary>"npm run setup" command not working</summary>
+## ⛏️ Built With <a name = "tech_stack"></a>
 
-Here's what the setup script does. If it fails, try doing each of these things
-individually yourself:
+- [Express](https://expressjs.com/) - Server Framework
+- [Jest](https://jestjs.io/) - Testings Framework
 
-```
-# verify your environment will work with the project
-node ./scripts/verify
+## ✍️ Authors <a name = "authors"></a>
 
-# install dependencies
-npm install
+- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
 
-# verify the project is ready to run
-npm run build
-npm run test:coverage
-```
+See also the list of
+[contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors)
+who participated in this project.
 
-If any of those scripts fail, please try to work out what went wrong by the
-error message you get. If you still can't work it out, feel free to [open an
-issue][issue] with _all_ the output from that script. I will try to help if I
-can.
+## 🎉 Acknowledgments <a name = "acknowledgments"></a>
 
-</details>
-
-## Contributors
-
-Thanks goes to these wonderful people
-([emoji key](https://github.com/all-contributors/all-contributors#emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore -->
-<table>
-  <tr>
-    <td align="center"><a href="https://kentcdodds.com"><img src="https://avatars.githubusercontent.com/u/1500684?v=3" width="100px;" alt="Kent C. Dodds"/><br /><sub><b>Kent C. Dodds</b></sub></a><br /><a href="https://github.com/kentcdodds/testing-node-apps/commits?author=kentcdodds" title="Code">💻</a> <a href="https://github.com/kentcdodds/testing-node-apps/commits?author=kentcdodds" title="Documentation">📖</a> <a href="#infra-kentcdodds" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/kentcdodds/testing-node-apps/commits?author=kentcdodds" title="Tests">⚠️</a></td>
-    <td align="center"><a href="https://stackshare.io/jdorfman/decisions"><img src="https://avatars1.githubusercontent.com/u/398230?v=4" width="100px;" alt="Justin Dorfman"/><br /><sub><b>Justin Dorfman</b></sub></a><br /><a href="#fundingFinding-jdorfman" title="Funding Finding">🔍</a></td>
-  </tr>
-</table>
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the
-[all-contributors](https://github.com/all-contributors/all-contributors)
-specification. Contributions of any kind welcome!
-
-## License
-
-This material is available for private, non-commercial use under the
-[GPL version 3](http://www.gnu.org/licenses/gpl-3.0-standalone.html). If you
-would like to use this material to conduct your own workshop, please contact me
-at kent@doddsfamily.us
-
-[npm]: https://www.npmjs.com/
-[node]: https://nodejs.org
-[git]: https://git-scm.com/
-[yarn]: https://yarnpkg.com/
-[build-badge]:
-  https://img.shields.io/travis/kentcdodds/testing-node-apps.svg?style=flat-square&logo=travis
-[build]: https://travis-ci.org/kentcdodds/testing-node-apps
-[license-badge]:
-  https://img.shields.io/badge/license-GPL%203.0%20License-blue.svg?style=flat-square
-[license]:
-  https://github.com/kentcdodds/testing-node-apps/blob/master/README.md#license
-[prs-badge]:
-  https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
-[prs]: http://makeapullrequest.com
-[coc-badge]:
-  https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square
-[coc]:
-  https://github.com/kentcdodds/testing-node-apps/blob/master/CODE_OF_CONDUCT.md
-[github-watch-badge]:
-  https://img.shields.io/github/watchers/kentcdodds/testing-node-apps.svg?style=social
-[github-watch]: https://github.com/kentcdodds/testing-node-apps/watchers
-[github-star-badge]:
-  https://img.shields.io/github/stars/kentcdodds/testing-node-apps.svg?style=social
-[github-star]: https://github.com/kentcdodds/testing-node-apps/stargazers
-[twitter]:
-  https://twitter.com/intent/tweet?text=Check%20out%20testing-node-apps%20by%20@kentcdodds%20https://github.com/kentcdodds/testing-node-apps%20%F0%9F%91%8D
-[twitter-badge]:
-  https://img.shields.io/twitter/url/https/github.com/kentcdodds/testing-node-apps.svg?style=social
-[emojis]: https://github.com/all-contributors/all-contributors#emoji-key
-[all-contributors]: https://github.com/all-contributors/all-contributors
-[win-path]:
-  https://www.howtogeek.com/118594/how-to-edit-your-system-path-for-easy-command-line-access/
-[mac-path]: http://stackoverflow.com/a/24322978/971592
-[issue]: https://github.com/kentcdodds/testing-node-apps/issues/new
-[win-build-badge]:
-  https://img.shields.io/appveyor/ci/kentcdodds/testing-node-apps.svg?style=flat-square&logo=appveyor
-[win-build]: https://ci.appveyor.com/project/kentcdodds/testing-node-apps
-[coverage-badge]:
-  https://img.shields.io/codecov/c/github/kentcdodds/testing-node-apps.svg?style=flat-square
-[coverage]: https://codecov.io/github/kentcdodds/testing-node-apps
-[watchman]: https://facebook.github.io/watchman/docs/install.html
+- Hat tip to anyone whose code was used
+- Inspiration
+- References
