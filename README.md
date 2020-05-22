@@ -1,6 +1,6 @@
 # Pure Function
 
-## About <a name = "about"></a>
+## About
 
 We will learn how to test this pure function.
 
@@ -20,7 +20,7 @@ function isPasswordAllowed(password) {
 }
 ```
 
-## Getting Started <a name = "getting_started"></a>
+## Getting Started
 
 - Go to `src/utils/__test__/auth.exercise.js`
 
